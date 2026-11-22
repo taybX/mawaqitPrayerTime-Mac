@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1C00000000000000000010 /* MawaqitKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1C00000000000000000012 /* MawaqitKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A1C00000000000000000001 /* MawaqitPrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MawaqitPrayerTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1C00000000000000000013 /* MawaqitPrayerTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MawaqitPrayerTime.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7A1C00000000000000000002 /* MawaqitPrayerTime */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MawaqitPrayerTime;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1C00000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C00000000000000000010 /* MawaqitKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1C00000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				7A1C00000000000000000002 /* MawaqitPrayerTime */,
+				7A1C00000000000000000013 /* MawaqitPrayerTime.entitlements */,
+				7A1C00000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1C00000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1C00000000000000000001 /* MawaqitPrayerTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1C00000000000000000006 /* MawaqitPrayerTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1C0000000000000000000B /* Build configuration list for PBXNativeTarget "MawaqitPrayerTime" */;
+			buildPhases = (
+				7A1C00000000000000000007 /* Sources */,
+				7A1C00000000000000000003 /* Frameworks */,
+				7A1C00000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7A1C00000000000000000002 /* MawaqitPrayerTime */,
+			);
+			name = MawaqitPrayerTime;
+			packageProductDependencies = (
+				7A1C00000000000000000012 /* MawaqitKit */,
+			);
+			productName = MawaqitPrayerTime;
+			productReference = 7A1C00000000000000000001 /* MawaqitPrayerTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1C00000000000000000009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					7A1C00000000000000000006 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = 7A1C0000000000000000000A /* Build configuration list for PBXProject "MawaqitPrayerTime" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1C00000000000000000004;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A1C00000000000000000011 /* XCLocalSwiftPackageReference "Packages/MawaqitKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A1C00000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1C00000000000000000006 /* MawaqitPrayerTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1C00000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1C00000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A1C0000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A1C0000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7A1C0000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MawaqitPrayerTime.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mawaqit Prayer Time";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your location is used only when you ask for nearby mosques, to search Apple Maps around you. It is not stored.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used only when you ask for nearby mosques, to search Apple Maps around you. It is not stored.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkotesh.MawaqitPrayerTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7A1C0000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MawaqitPrayerTime.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mawaqit Prayer Time";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your location is used only when you ask for nearby mosques, to search Apple Maps around you. It is not stored.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used only when you ask for nearby mosques, to search Apple Maps around you. It is not stored.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkotesh.MawaqitPrayerTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1C0000000000000000000A /* Build configuration list for PBXProject "MawaqitPrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1C0000000000000000000C /* Debug */,
+				7A1C0000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1C0000000000000000000B /* Build configuration list for PBXNativeTarget "MawaqitPrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1C0000000000000000000E /* Debug */,
+				7A1C0000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7A1C00000000000000000011 /* XCLocalSwiftPackageReference "Packages/MawaqitKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/MawaqitKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A1C00000000000000000012 /* MawaqitKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MawaqitKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7A1C00000000000000000009 /* Project object */;
+}
